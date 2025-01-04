@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 12px;
+  font-family: "loto", sans-serif;
+  font-weight: 400;
+  color: #666;
+  line-height: 2em;
+}
+.bgimage1,
+.bgimage4{
+  min-height: 100%;
+  background-image: url("photos/nature.jpg");
+}
+.bgimage2 {
+  min-height: 400px;
+  background-image: url("photos/nature2.jpg");
+}
+.bgimage3{
+  min-height: 400px;
+  background-image: url("photos/nature3.jpg");
+}
+.bgimage1,
+.bgimage2,
+.bgimage3,
+.bgimage4 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.textbg {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: 8px;
+}
+.text {
+  background-color: #313534;
+  color: #fff;
+  padding:20px;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.paragraph1 {
+  background-color: white;
+  color: black;
+  padding: 50px 80px;
+  text-align: center;
+}
+.paragraph2,
+.paragraph3 {
+  background-color: #666;
+  color: white;
+  padding: 50px 80px;
+  text-align: center;
+}
